@@ -1,3 +1,55 @@
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+div {
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.calculator {
     background-color: gainsboro;
+    width: 330px;
+}
+
+.screen {
+    width: auto;
+    height: 75px;
+    background-color: whitesmoke;
+    margin: 13px 10px 10px 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gainsboro;
+    border: 0px;
+
+}
+
+.numbers, .zero, .operator, .others {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    box-sizing: border-box;
+}
+
+.others {
+    background-color: rgba(135, 206, 250, 0.699);
+}
+
+.zero {
+    width: 150px;
+}
+
+.operator {
+    background-color: rgba(128, 128, 128, 0.603);
 }
